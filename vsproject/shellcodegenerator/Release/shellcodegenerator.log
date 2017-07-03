@@ -1,0 +1,22 @@
+﻿cl : Command line warning D9025: overriding '/sdl-' with '/GS-'
+  shellcodegenerator.cpp
+shellcodegenerator.cpp(250): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(252): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(254): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(256): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(258): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(260): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(262): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(264): warning C4405: 'test': identifier is reserved word
+shellcodegenerator.cpp(266): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+shellcodegenerator.cpp(267): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+shellcodegenerator.cpp(268): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(90): note: see declaration of 'strcat'
+  stdafx.cpp
+  Generating code
+d:\edgere\poc\vsproject\shellcodegenerator\shellcodegenerator.cpp(377): warning C4731: 'entryPoint': frame pointer register 'ebp' modified by inline assembly code
+  All 8 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  shellcodegenerator.vcxproj -> D:\edgere\poc\vsproject\Release\shellcodegenerator.exe

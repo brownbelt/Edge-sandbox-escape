@@ -1,0 +1,315 @@
+ shellcodegenerator
+
+ Timestamp is 586fe039 (Fri Jan  6 19:21:45 2017)
+
+ Preferred load address is 00400000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00001511H .text$mn                CODE
+ 0002:00000000 000000bcH .idata$5                DATA
+ 0002:000000bc 00000004H .00cfg                  DATA
+ 0002:000000c0 00000004H .CRT$XCA                DATA
+ 0002:000000c4 00000004H .CRT$XCAA               DATA
+ 0002:000000c8 00000004H .CRT$XCZ                DATA
+ 0002:000000cc 00000004H .CRT$XIA                DATA
+ 0002:000000d0 00000004H .CRT$XIAA               DATA
+ 0002:000000d4 00000004H .CRT$XIAC               DATA
+ 0002:000000d8 00000004H .CRT$XIZ                DATA
+ 0002:000000dc 00000004H .CRT$XPA                DATA
+ 0002:000000e0 00000004H .CRT$XPZ                DATA
+ 0002:000000e4 00000004H .CRT$XTA                DATA
+ 0002:000000e8 00000008H .CRT$XTZ                DATA
+ 0002:000000f0 00000410H .rdata                  DATA
+ 0002:00000500 00000004H .rdata$sxdata           DATA
+ 0002:00000504 000002ccH .rdata$zzzdbg           DATA
+ 0002:000007d0 00000004H .rtc$IAA                DATA
+ 0002:000007d4 00000004H .rtc$IZZ                DATA
+ 0002:000007d8 00000004H .rtc$TAA                DATA
+ 0002:000007dc 00000004H .rtc$TZZ                DATA
+ 0002:000007e0 0000003cH .xdata$x                DATA
+ 0002:0000081c 00000000H .edata                  DATA
+ 0002:0000081c 0000008cH .idata$2                DATA
+ 0002:000008a8 00000014H .idata$3                DATA
+ 0002:000008bc 000000bcH .idata$4                DATA
+ 0002:00000978 0000040aH .idata$6                DATA
+ 0003:00000000 00000020H .data                   DATA
+ 0003:00000020 00000374H .bss                    DATA
+ 0004:00000000 00000020H .gfids$y                DATA
+ 0005:00000000 00000060H .rsrc$01                DATA
+ 0005:00000060 00000180H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base       Lib:Object
+
+ 0000:00000000       ___guard_fids_table        00000000     <absolute>
+ 0000:00000000       ___guard_iat_count         00000000     <absolute>
+ 0000:00000000       ___guard_iat_table         00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_count     00000000     <absolute>
+ 0000:00000000       ___guard_fids_count        00000000     <absolute>
+ 0000:00000000       ___guard_longjmp_table     00000000     <absolute>
+ 0000:00000000       ___dynamic_value_reloc_table 00000000     <absolute>
+ 0000:00000001       ___safe_se_handler_count   00000001     <absolute>
+ 0000:00000100       ___guard_flags             00000100     <absolute>
+ 0000:00000000       ___ImageBase               00400000     <linker-defined>
+ 0001:00000000       ?entryPoint@@YAHXZ         00401000 f   shellcodegenerator.obj
+ 0001:000007be       ?getHash@@YAKPBD@Z         004017be f   shellcodegenerator.obj
+ 0001:000007db       ?getDataTableEntry@@YAPAU_LDR_DATA_TABLE_ENTRY@@PBU_LIST_ENTRY@@@Z 004017db f   shellcodegenerator.obj
+ 0001:000007df       ?getProcAddrByHash@@YAPAXK@Z 004017df f   shellcodegenerator.obj
+ 0001:0000088b       ?Hook@@YAXPAXH@Z           0040188b f   shellcodegenerator.obj
+ 0001:00000926       _main                      00401926 f   shellcodegenerator.obj
+ 0001:00000b65       _mainCRTStartup            00401b65 f   MSVCRT:exe_main.obj
+ 0001:00000bb3       ___scrt_acquire_startup_lock 00401bb3 f   MSVCRT:utility.obj
+ 0001:00000be8       ___scrt_initialize_crt     00401be8 f   MSVCRT:utility.obj
+ 0001:00000c21       ___scrt_initialize_onexit_tables 00401c21 f   MSVCRT:utility.obj
+ 0001:00000cb8       ___scrt_is_nonwritable_in_current_image 00401cb8 f   MSVCRT:utility.obj
+ 0001:00000d45       ___scrt_release_startup_lock 00401d45 f   MSVCRT:utility.obj
+ 0001:00000d62       ___scrt_uninitialize_crt   00401d62 f   MSVCRT:utility.obj
+ 0001:00000d8a       __onexit                   00401d8a f   MSVCRT:utility.obj
+ 0001:00000dc5       _atexit                    00401dc5 f   MSVCRT:utility.obj
+ 0001:00000dda       ___security_init_cookie    00401dda f   MSVCRT:gs_support.obj
+ 0001:00000e76       __get_startup_argv_mode    00401e76 f   MSVCRT:argv_mode.obj
+ 0001:00000e7a       __get_startup_thread_locale_mode 00401e7a f   MSVCRT:thread_locale.obj
+ 0001:00000e7a       ___scrt_initialize_winrt   00401e7a f   MSVCRT:utility_desktop.obj
+ 0001:00000e7a       __get_startup_commit_mode  00401e7a f   MSVCRT:commit_mode.obj
+ 0001:00000e7a       __get_startup_new_mode     00401e7a f   MSVCRT:new_mode.obj
+ 0001:00000e7a       __matherr                  00401e7a f   MSVCRT:matherr.obj
+ 0001:00000e7d       __get_startup_file_mode    00401e7d f   MSVCRT:file_mode.obj
+ 0001:00000e83       ?__scrt_initialize_type_info@@YAXXZ 00401e83 f   MSVCRT:tncleanup.obj
+ 0001:00000e8f       __initialize_default_precision 00401e8f f   MSVCRT:default_precision.obj
+ 0001:00000eb0       __initialize_denormal_control 00401eb0 f   MSVCRT:denormal_control.obj
+ 0001:00000eb0       __initialize_invalid_parameter_handler 00401eb0 f   MSVCRT:invalid_parameter_handler.obj
+ 0001:00000eb0       @_guard_check_icall_nop@4  00401eb0 f   MSVCRT:guard_support.obj
+ 0001:00000eb1       ___local_stdio_printf_options 00401eb1 f i MSVCRT:default_local_stdio_options.obj
+ 0001:00000eb7       ___local_stdio_scanf_options 00401eb7 f i MSVCRT:default_local_stdio_options.obj
+ 0001:00000ebd       ___scrt_initialize_default_local_stdio_options 00401ebd f   MSVCRT:default_local_stdio_options.obj
+ 0001:00000eda       ___scrt_is_user_matherr_present 00401eda f   MSVCRT:matherr_detection.obj
+ 0001:00000ee6       ___scrt_get_dyn_tls_init_callback 00401ee6 f   MSVCRT:dyn_tls_init.obj
+ 0001:00000eec       ___scrt_get_dyn_tls_dtor_callback 00401eec f   MSVCRT:dyn_tls_dtor.obj
+ 0001:00000ef2       ___scrt_fastfail           00401ef2 f   MSVCRT:utility_desktop.obj
+ 0001:0000100d       ___scrt_is_managed_app     0040200d f   MSVCRT:utility_desktop.obj
+ 0001:00001051       ___scrt_set_unhandled_exception_filter 00402051 f   MSVCRT:utility_desktop.obj
+ 0001:0000105d       ___scrt_unhandled_exception_filter@4 0040205d f   MSVCRT:utility_desktop.obj
+ 0001:0000109e       __RTC_Initialize           0040209e f   MSVCRT:_initsect_.obj
+ 0001:000010c9       __RTC_Terminate            004020c9 f   MSVCRT:_initsect_.obj
+ 0001:000010f4       @_guard_check_icall@4      004020f4 f i MSVCRT:checkcfg.obj
+ 0001:00001100       __SEH_prolog4              00402100 f   MSVCRT:_sehprolg4_.obj
+ 0001:00001146       __SEH_epilog4              00402146 f   MSVCRT:_sehprolg4_.obj
+ 0001:0000115b       __except_handler4          0040215b f   MSVCRT:_chandler4gs_.obj
+ 0001:0000117e       ___isa_available_init      0040217e f   MSVCRT:_cpu_disp_.obj
+ 0001:0000131f       ___scrt_is_ucrt_dll_in_use 0040231f f   MSVCRT:ucrt_detection.obj
+ 0001:0000132b       @__security_check_cookie@4 0040232b f   MSVCRT:_secchk_.obj
+ 0001:0000133c       ___raise_securityfailure   0040233c f   MSVCRT:gs_report.obj
+ 0001:00001364       ___report_gsfailure        00402364 f   MSVCRT:gs_report.obj
+ 0001:00001460       ___telemetry_main_invoke_trigger 00402460 f   vcruntime:VCRUNTIME140.dll
+ 0001:00001466       ___telemetry_main_return_trigger 00402466 f   vcruntime:VCRUNTIME140.dll
+ 0001:0000146c       _memset                    0040246c f   vcruntime:VCRUNTIME140.dll
+ 0001:00001472       __except_handler4_common   00402472 f   vcruntime:VCRUNTIME140.dll
+ 0001:00001478       __seh_filter_exe           00402478 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000147e       __set_app_type             0040247e f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00001484       ___setusermatherr          00402484 f   ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0001:0000148a       __configure_narrow_argv    0040248a f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00001490       __initialize_narrow_environment 00402490 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00001496       __get_initial_narrow_environment 00402496 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:0000149c       __initterm                 0040249c f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014a2       __initterm_e               004024a2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014a8       _exit                      004024a8 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014ae       __exit                     004024ae f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014b4       __set_fmode                004024b4 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000014ba       ___p___argc                004024ba f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014c0       ___p___argv                004024c0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014c6       __cexit                    004024c6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014cc       __c_exit                   004024cc f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014d2       __register_thread_local_exe_atexit_callback 004024d2 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014d8       __configthreadlocale       004024d8 f   ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0001:000014de       __set_new_mode             004024de f   ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0001:000014e4       ___p__commode              004024e4 f   ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0001:000014ea       __initialize_onexit_table  004024ea f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014f0       __register_onexit_function 004024f0 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014f6       __crt_atexit               004024f6 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:000014fc       __controlfp_s              004024fc f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00001502       _terminate                 00402502 f   ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0001:00001508       _IsProcessorFeaturePresent@4 00402508 f   kernel32:KERNEL32.dll
+ 0001:0000150e       ___acrt_uninitialize       0040250e f   MSVCRT:ucrt_stubs.obj
+ 0001:0000150e       __should_initialize_environment 0040250e f   MSVCRT:env_mode.obj
+ 0001:0000150e       ___acrt_initialize         0040250e f   MSVCRT:ucrt_stubs.obj
+ 0001:0000150e       ___vcrt_initialize         0040250e f   MSVCRT:ucrt_stubs.obj
+ 0001:0000150e       ___scrt_stub_for_acrt_initialize 0040250e f   MSVCRT:ucrt_stubs.obj
+ 0001:0000150e       ___vcrt_uninitialize       0040250e f   MSVCRT:ucrt_stubs.obj
+ 0001:0000150e       ___scrt_stub_for_acrt_uninitialize 0040250e f   MSVCRT:ucrt_stubs.obj
+ 0002:00000000       __imp__GetCurrentProcessId@0 00403000     kernel32:KERNEL32.dll
+ 0002:00000004       __imp__GetCurrentThreadId@0 00403004     kernel32:KERNEL32.dll
+ 0002:00000008       __imp__GetSystemTimeAsFileTime@4 00403008     kernel32:KERNEL32.dll
+ 0002:0000000c       __imp__InitializeSListHead@4 0040300c     kernel32:KERNEL32.dll
+ 0002:00000010       __imp__IsDebuggerPresent@0 00403010     kernel32:KERNEL32.dll
+ 0002:00000014       __imp__TerminateProcess@8  00403014     kernel32:KERNEL32.dll
+ 0002:00000018       __imp__GetCurrentProcess@0 00403018     kernel32:KERNEL32.dll
+ 0002:0000001c       __imp__GetModuleHandleW@4  0040301c     kernel32:KERNEL32.dll
+ 0002:00000020       __imp__IsProcessorFeaturePresent@4 00403020     kernel32:KERNEL32.dll
+ 0002:00000024       __imp__SetUnhandledExceptionFilter@4 00403024     kernel32:KERNEL32.dll
+ 0002:00000028       __imp__UnhandledExceptionFilter@4 00403028     kernel32:KERNEL32.dll
+ 0002:0000002c       __imp__QueryPerformanceCounter@4 0040302c     kernel32:KERNEL32.dll
+ 0002:00000030       \177KERNEL32_NULL_THUNK_DATA 00403030     kernel32:KERNEL32.dll
+ 0002:00000034       __imp__memset              00403034     vcruntime:VCRUNTIME140.dll
+ 0002:00000038       __imp____telemetry_main_return_trigger 00403038     vcruntime:VCRUNTIME140.dll
+ 0002:0000003c       __imp___except_handler4_common 0040303c     vcruntime:VCRUNTIME140.dll
+ 0002:00000040       __imp____telemetry_main_invoke_trigger 00403040     vcruntime:VCRUNTIME140.dll
+ 0002:00000044       \177VCRUNTIME140_NULL_THUNK_DATA 00403044     vcruntime:VCRUNTIME140.dll
+ 0002:00000048       __imp___set_new_mode       00403048     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:0000004c       \177api-ms-win-crt-heap-l1-1-0_NULL_THUNK_DATA 0040304c     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000050       __imp___configthreadlocale 00403050     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00000054       \177api-ms-win-crt-locale-l1-1-0_NULL_THUNK_DATA 00403054     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00000058       __imp____setusermatherr    00403058     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:0000005c       \177api-ms-win-crt-math-l1-1-0_NULL_THUNK_DATA 0040305c     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000060       __imp___cexit              00403060     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000064       __imp___register_onexit_function 00403064     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000068       __imp___crt_atexit         00403068     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000006c       __imp___controlfp_s        0040306c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000070       __imp__terminate           00403070     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000074       __imp___seh_filter_exe     00403074     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000078       __imp___set_app_type       00403078     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000007c       __imp___c_exit             0040307c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000080       __imp___register_thread_local_exe_atexit_callback 00403080     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000084       __imp____p___argv          00403084     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000088       __imp____p___argc          00403088     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000008c       __imp___exit               0040308c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000090       __imp__exit                00403090     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000094       __imp___initterm_e         00403094     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000098       __imp___initterm           00403098     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:0000009c       __imp___get_initial_narrow_environment 0040309c     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000a0       __imp___initialize_narrow_environment 004030a0     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000a4       __imp___configure_narrow_argv 004030a4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000a8       __imp___initialize_onexit_table 004030a8     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000ac       \177api-ms-win-crt-runtime-l1-1-0_NULL_THUNK_DATA 004030ac     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:000000b0       __imp____p__commode        004030b0     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000b4       __imp___set_fmode          004030b4     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000b8       \177api-ms-win-crt-stdio-l1-1-0_NULL_THUNK_DATA 004030b8     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:000000bc       ___guard_check_icall_fptr  004030bc     MSVCRT:guard_support.obj
+ 0002:000000c0       ___xc_a                    004030c0     MSVCRT:initializers.obj
+ 0002:000000c8       ___xc_z                    004030c8     MSVCRT:initializers.obj
+ 0002:000000cc       ___xi_a                    004030cc     MSVCRT:initializers.obj
+ 0002:000000d8       ___xi_z                    004030d8     MSVCRT:initializers.obj
+ 0002:000000dc       ___xp_a                    004030dc     MSVCRT:initializers.obj
+ 0002:000000e0       ___xp_z                    004030e0     MSVCRT:initializers.obj
+ 0002:000000e4       ___xt_a                    004030e4     MSVCRT:initializers.obj
+ 0002:000000e8       ___xt_z                    004030e8     MSVCRT:initializers.obj
+ 0002:000000f8       ??_C@_0BH@HLJBLHCL@ApplicationFrameWindow?$AA@ 004030f8     shellcodegenerator.obj
+ 0002:00000110       ??_C@_0GI@LBAGCDOI@?2AppData?2Local?2Packages?2Microsof@ 00403110     shellcodegenerator.obj
+ 0002:00000178       ??_C@_0FG@NFPFHJFH@?2AppData?2Local?2Packages?2Microsof@ 00403178     shellcodegenerator.obj
+ 0002:000001d0       ??_C@_0FG@NCNCEJHI@?2AppData?2Local?2Packages?2Microsof@ 004031d0     shellcodegenerator.obj
+ 0002:00000228       ??_C@_0KB@IJFCKCAC@?$DM?$CB?9?9?5saved?5from?5url?$DN?$CI0016?$CJhttp?3?1@ 00403228     shellcodegenerator.obj
+ 0002:000002d0       ??_C@_0EK@NAHGKOG@?$DMhtml?$DO?$DMbody?$DO?$DMscript?$DOalert?$CI?$CCmediu@ 004032d0     shellcodegenerator.obj
+ 0002:00000320       ??_C@_0PK@BDAGNBKM@HTTP?11?41?5200?5OK?$AN?6Content?9Type?3?5t@ 00403320     shellcodegenerator.obj
+ 0002:0000041c       ??_C@_01LOCGONAA@?$AA?$AA@ 0040341c     shellcodegenerator.obj
+ 0002:00000420       ??_C@_09PFCHIMEP@127?40?40?41?$AA@ 00403420     shellcodegenerator.obj
+ 0002:000004a0       __load_config_used         004034a0     MSVCRT:loadcfg.obj
+ 0002:00000500       ___safe_se_handler_table   00403500     <linker-defined>
+ 0002:000007d0       ___rtc_iaa                 004037d0     MSVCRT:_initsect_.obj
+ 0002:000007d4       ___rtc_izz                 004037d4     MSVCRT:_initsect_.obj
+ 0002:000007d8       ___rtc_taa                 004037d8     MSVCRT:_initsect_.obj
+ 0002:000007dc       ___rtc_tzz                 004037dc     MSVCRT:_initsect_.obj
+ 0002:0000081c       __IMPORT_DESCRIPTOR_VCRUNTIME140 0040381c     vcruntime:VCRUNTIME140.dll
+ 0002:00000830       __IMPORT_DESCRIPTOR_api-ms-win-crt-runtime-l1-1-0 00403830     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000844       __IMPORT_DESCRIPTOR_api-ms-win-crt-math-l1-1-0 00403844     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000858       __IMPORT_DESCRIPTOR_api-ms-win-crt-stdio-l1-1-0 00403858     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:0000086c       __IMPORT_DESCRIPTOR_api-ms-win-crt-locale-l1-1-0 0040386c     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00000880       __IMPORT_DESCRIPTOR_api-ms-win-crt-heap-l1-1-0 00403880     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000894       __IMPORT_DESCRIPTOR_KERNEL32 00403894     kernel32:KERNEL32.dll
+ 0002:000008a8       __NULL_IMPORT_DESCRIPTOR   004038a8     vcruntime:VCRUNTIME140.dll
+ 0003:00000000       ___scrt_native_dllmain_reason 00404000     MSVCRT:utility.obj
+ 0003:00000004       ___scrt_default_matherr    00404004     MSVCRT:matherr.obj
+ 0003:00000010       ___isa_enabled             00404010     MSVCRT:_cpu_disp_.obj
+ 0003:00000014       ___security_cookie_complement 00404014     MSVCRT:gs_cookie.obj
+ 0003:00000018       ___security_cookie         00404018     MSVCRT:gs_cookie.obj
+ 0003:0000001c       ___scrt_ucrt_dll_is_in_use 0040401c     MSVCRT:ucrt_stubs.obj
+ 0003:00000020       ___scrt_current_native_startup_state 00404020     MSVCRT:utility.obj
+ 0003:00000024       ___scrt_native_startup_lock 00404024     MSVCRT:utility.obj
+ 0003:00000048       ?__type_info_root_node@@3U__type_info_node@@A 00404048     MSVCRT:tncleanup.obj
+ 0003:00000050       ?_OptionsStorage@?1??__local_stdio_printf_options@@9@4_KA 00404050     MSVCRT:default_local_stdio_options.obj
+ 0003:00000058       ?_OptionsStorage@?1??__local_stdio_scanf_options@@9@4_KA 00404058     MSVCRT:default_local_stdio_options.obj
+ 0003:00000060       ___scrt_debugger_hook_flag 00404060     MSVCRT:utility_desktop.obj
+ 0003:00000064       ___isa_available           00404064     MSVCRT:_cpu_disp_.obj
+ 0003:00000068       ___favor                   00404068     MSVCRT:_cpu_disp_.obj
+ 0003:0000038c       ___dyn_tls_dtor_callback   0040438c     <common>
+ 0003:00000390       ___dyn_tls_init_callback   00404390     <common>
+
+ entry point at        0001:00000b65
+
+ Static symbols
+
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     kernel32:KERNEL32.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0000:ffff8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0000:ffff8000       .debug$S                   00400000     vcruntime:VCRUNTIME140.dll
+ 0001:000008ed       ?send_all@@YAHIPADH@Z      004018ed f   shellcodegenerator.obj
+ 0001:0000092b       ?pre_c_initialization@@YAHXZ 0040192b f   MSVCRT:exe_main.obj
+ 0001:000009cf       ?post_pgo_initialization@@YAHXZ 004019cf f   MSVCRT:exe_main.obj
+ 0001:000009d7       ?pre_cpp_initialization@@YAXXZ 004019d7 f   MSVCRT:exe_main.obj
+ 0001:000009e9       ?__scrt_common_main_seh@@YAHXZ 004019e9 f   MSVCRT:exe_main.obj
+ 0001:00000b6f       ?find_pe_section@@YAPAU_IMAGE_SECTION_HEADER@@QAEI@Z 00401b6f f   MSVCRT:utility.obj
+ 0001:00001100       $$000000                   00402100     MSVCRT:_sehprolg4_.obj
+ 0002:000000c4       ?pre_cpp_initializer@@3P6AXXZA 004030c4     MSVCRT:exe_main.obj
+ 0002:000000d0       ?pre_c_initializer@@3P6AHXZA 004030d0     MSVCRT:exe_main.obj
+ 0002:000000d4       ?post_pgo_initializer@@3P6AHXZA 004030d4     MSVCRT:exe_main.obj
+ 0002:000000f0       _GS_ExceptionPointers      004030f0     MSVCRT:gs_report.obj
+ 0002:000007e0       __sehtable$?__scrt_common_main_seh@@YAHXZ 004037e0     MSVCRT:exe_main.obj
+ 0002:00000800       __sehtable$___scrt_is_nonwritable_in_current_image 00403800     MSVCRT:utility.obj
+ 0002:000009e0       .idata$6                   004039e0     vcruntime:VCRUNTIME140.dll
+ 0002:00000bb4       .idata$6                   00403bb4     ucrt:api-ms-win-crt-runtime-l1-1-0.dll
+ 0002:00000bd6       .idata$6                   00403bd6     ucrt:api-ms-win-crt-math-l1-1-0.dll
+ 0002:00000bf6       .idata$6                   00403bf6     ucrt:api-ms-win-crt-stdio-l1-1-0.dll
+ 0002:00000c16       .idata$6                   00403c16     ucrt:api-ms-win-crt-locale-l1-1-0.dll
+ 0002:00000c38       .idata$6                   00403c38     ucrt:api-ms-win-crt-heap-l1-1-0.dll
+ 0002:00000d74       .idata$6                   00403d74     kernel32:KERNEL32.dll
+ 0003:00000028       ?module_local_atexit_table@@3U_onexit_table_t@@A 00404028     MSVCRT:utility.obj
+ 0003:00000034       ?module_local_at_quick_exit_table@@3U_onexit_table_t@@A 00404034     MSVCRT:utility.obj
+ 0003:00000040       ?is_initialized_as_dll@@3_NA 00404040     MSVCRT:utility.obj
+ 0003:00000070       _GS_ExceptionRecord        00404070     MSVCRT:gs_report.obj
+ 0003:000000c0       _GS_ContextRecord          004040c0     MSVCRT:gs_report.obj
+ 0004:00000000       __guard_fids__             00405000     MSVCRT:exe_main.obj
+ 0004:00000004       __guard_fids__             00405004     MSVCRT:exe_main.obj
+ 0004:00000008       __guard_fids__             00405008     MSVCRT:exe_main.obj
+ 0004:0000000c       __guard_fids_?pre_c_initialization@@YAHXZ 0040500c     MSVCRT:exe_main.obj
+ 0004:00000014       __guard_fids____scrt_set_unhandled_exception_filter 00405014     MSVCRT:utility_desktop.obj
+ 0004:00000018       __guard_fids___except_handler4 00405018     MSVCRT:_chandler4gs_.obj
+ 0004:0000001c       __guard_fids__             0040501c     MSVCRT:guard_support.obj
+ 0005:00000060       $R000000                   00406060     * linker generated manifest res *

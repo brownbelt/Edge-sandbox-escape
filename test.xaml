@@ -1,0 +1,52 @@
+<Page  
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"  
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"  
+    xmlns:scm="clr-namespace:System.ComponentModel;assembly=WindowsBase"  
+    >  
+  <Grid>  
+    <Grid.Resources>  
+      <ResourceDictionary>  
+        <!-- This retrieves and provides data to controls -->  
+        <XmlDataProvider x:Key="FeedData"   
+          IsAsynchronous="True" IsInitialLoadEnabled="True"  
+          Source="http://tech.yahoo.com/rss/blogs;_ylt=AundRjbnFGWfXrTyBtK_6QM3LpA5"  
+          XPath="//rss/channel"/>  
+        <CollectionViewSource x:Key="ItemList"   
+          Source="{Binding Source={StaticResource FeedData}, XPath=item}" >  
+          <!-- Sort by author and then by title -->  
+          <CollectionViewSource.SortDescriptions>  
+            <scm:SortDescription PropertyName="author"/>  
+            <scm:SortDescription PropertyName="title"/>  
+          </CollectionViewSource.SortDescriptions>  
+          <!-- Group items by author -->  
+          <CollectionViewSource.GroupDescriptions>  
+            <PropertyGroupDescription PropertyName="author"/>  
+            </CollectionViewSource.GroupDescriptions>  
+          </CollectionViewSource>  
+        <!-- This is the template for each item -->  
+        <DataTemplate x:Key="TitleTemplate">  
+          <TextBlock FontSize="10" Foreground="#FF333333" Text="{Binding XPath=title}"/>  
+        </DataTemplate>  
+        <!-- This is the template for the groups -->  
+        <DataTemplate x:Key="ListBoxHeader1Style">  
+          <Grid Margin="1,6,1,4" >  
+            <Grid.RowDefinitions>  
+              <RowDefinition Height="Auto"/>  
+              <RowDefinition Height="1"/>  
+            </Grid.RowDefinitions>  
+            <TextBlock Grid.Row="0" FontSize="11" Foreground="#FF333333"   
+                       Text="{Binding Path=author}" />  
+            <Rectangle SnapsToDevicePixels="True" Grid.Row="1" Stroke="#50000000" Height="1"/>  
+          </Grid>  
+        </DataTemplate>  
+      </ResourceDictionary>  
+    </Grid.Resources>  
+  
+    <ListBox Grid.Row="1" ItemsSource="{Binding Source={StaticResource ItemList}}"   
+             ItemTemplate="{StaticResource TitleTemplate}">  
+      <ListBox.GroupStyle>  
+        <GroupStyle HidesIfEmpty="True" HeaderTemplate="{StaticResource ListBoxHeader1Style}"/>  
+      </ListBox.GroupStyle>  
+    </ListBox>  
+  </Grid>  
+</Page>  
